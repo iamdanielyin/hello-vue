@@ -1,4 +1,4 @@
-# hello-vue
+# HELLO-VUE
 
 ## 项目安装
 
