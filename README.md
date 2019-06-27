@@ -17,6 +17,9 @@ npm start
 1. 实现图书信息的增删改查功能
 1. 使用**表格组件**显示图书列表，使用**表单组件**显示图书详情
 
+![](./img-table.jpg)
+![](./img-dialog.jpg)
+
 ### 数据结构
 
 图书信息的数据结构如下：
@@ -27,7 +30,7 @@ Book(图书档案) {
   Price(价格) number
   Date(购买日期) string
   IsDiscount(是否打折) boolean
-  UserRemark(用户备注) integer
+  UserRemark(用户备注) string
 }
 ```
 
