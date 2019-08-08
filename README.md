@@ -40,14 +40,14 @@ Book(图书档案) {
 
 ```
 curl -X GET \
-  https://humansa.hofo.co/api/book
+  https://kuu.hofo.co/api/book
 ```
 
 - 新增图书：`POST /api/book`
 
 ```
 curl -X POST \
-  https://humansa.hofo.co/api/book \
+  https://kuu.hofo.co/api/book \
   -H 'Content-Type: application/json' \
   -d '{
     "Subject": "格林童话",
@@ -62,7 +62,7 @@ curl -X POST \
 
 ```
 curl -X PUT \
-  https://humansa.hofo.co/api/book \
+  https://kuu.hofo.co/api/book \
   -H 'Content-Type: application/json' \
   -d '{
     "cond": {
@@ -79,7 +79,7 @@ curl -X PUT \
 
 ```
 curl -X DELETE \
-  https://humansa.hofo.co/api/book \
+  https://kuu.hofo.co/api/book \
   -H 'Content-Type: application/json' \
   -d '{
     "cond": {
